@@ -1,6 +1,6 @@
 # python-portfolio
 Watch me grow in my journey of learning Python, hoping someday I'll create big project. But yeah, one step at a time. 
-# My (Shadhank's) Python Portfolio
+# My (Shashank's) Python Portfolio
 
 Started Learning Python: 5 June 2026
 
