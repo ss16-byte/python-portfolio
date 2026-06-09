@@ -34,5 +34,4 @@ Concepts:
 - Gravitational Force
 - Scientific Visualization
 
-Note:
-This project was developed with significant AI assistance while I explored computational physics concepts.
+Note: Built with AI assistance. Every line was reviewed and understood. I designed the physics logic; AI helped with syntax and debugging.
