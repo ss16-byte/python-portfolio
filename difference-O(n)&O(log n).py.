@@ -1,8 +1,7 @@
 import time
 
 
-print("Please select a number between 1 to 1,000,000")
-print("Adjust your answers with: 'h' for Too High, 'l' for Too Low, and 'c' for Correct.\n")
+
 secret_number = 365943
 
 
