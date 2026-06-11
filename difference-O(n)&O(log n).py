@@ -1,0 +1,49 @@
+import time
+
+
+
+secret_number = 365943
+
+
+
+low = 1
+high = 1000000
+attempt = 0
+
+linear_start = time.perf_counter()
+for guess in range(1, 1000001):
+
+   if guess == secret_number:
+      break 
+
+linear_end = time.perf_counter()    
+linear_duration = linear_end - linear_start
+print(f"Linear search execution time: {linear_duration:.6f} seconds")
+start_time = time.perf_counter()
+attempt = 0
+
+while low <= high:
+    mid = (low + high) // 2
+    attempt +=1
+    #print(f"My guess #{attempt} is: {mid}")
+    
+
+    if mid == secret_number:
+        print("The computer found it! Break out of the loop.")
+        break
+
+    elif mid < secret_number:
+        low = mid + 1 
+
+    else: 
+        high = mid - 1      
+
+end_time = time.perf_counter()
+duration = end_time - start_time
+print("Computer wins again BWAHAHAHAHA")
+print(f"Total execution time: {duration:.6f} seconds")
+
+
+
+
+
